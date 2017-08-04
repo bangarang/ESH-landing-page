@@ -2,7 +2,30 @@ body {
   margin: 0;
   padding: 0; }
 
+.background {
+  width: 1440px; }
+
 .main-background {
-  width: 1440px;
-  height: 4150px;
-  background-color: #ffffff; }
+  background-color: #fdb913;
+  height: 4150px; }
+
+.top-background {
+  background-image: linear-gradient(323deg, #fdb913, #fdb913 34%, #f09221);
+  height: 1523px; }
+
+.middle-background {
+  background-color: #ffffff;
+  height: 1576px;
+  -webkit-transform: skewY(30deg);
+  -moz-transform: skewY(30deg);
+  -ms-transform: skewY(30deg);
+  -o-transform: skewY(30deg);
+  transform: skewY(30deg); }
+
+.bottom-background {
+  background-color: #fdb913;
+  height: 1692px; }
+
+.footer-container {
+  background-color: #ffffff;
+  height: 383px; }
