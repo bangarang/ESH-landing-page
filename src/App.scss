@@ -4,54 +4,6 @@ body {
   padding: 0;
 }
 
-// App Variables
-// Colors
-$black: #000000;
-$dark-gray: #4a4a4a;
-$darker-gray: #231f20;
-$dark-orange: #f09221;
-$medium-gray: #757575;
-$off-white: #fefefe;
-$primary-orange: #fdb913;
-$teal: #009296;
-$white: #ffffff;
-
-// Heights and Widths
-$background-height-desktop: 4150px;
-$background-width-desktop: 1440px;
-
-// Main Component
-.background {
-  width: $background-width-desktop;
-}
-
-.main-background {
-  background-color: $primary-orange;
-  height: $background-height-desktop;
-}
-
-.top-background {
-  background-image: linear-gradient(323deg, $primary-orange, $primary-orange 34%, $dark-orange);
-  height: 1523px;
-}
-
-.middle-background {
-  background-color: $white;
-  height: 1576px;
-  -webkit-transform: skewY(30deg);
-  -moz-transform: skewY(30deg);
-  -ms-transform: skewY(30deg);
-  -o-transform: skewY(30deg);
-  transform: skewY(30deg);
-}
-
-.bottom-background {
-  background-color: $primary-orange;
-  height: 1692px;
-}
-
-//Footer Component
-.footer-container {
-  background-color: $white;
-  height: 383px;
-}
+@import './scss/variables';
+@import './scss/main';
+@import './scss/footer';

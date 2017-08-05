@@ -4,7 +4,8 @@ import Footer from './Footer';
 const Main = () => {
   return (
     <div className="main-background background">
-      <div className="top-background background"></div>
+      <div className="top-background background">
+      </div>
       <div className="middle-background background"></div>
       <div className="bottom-background background"></div>
       <Footer />

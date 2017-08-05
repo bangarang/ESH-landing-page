@@ -1,0 +1,62 @@
+.footer-container {
+  background-color: $white;
+  height: 383px;
+}
+
+.footer-text {
+  height: 40px;
+  width: 381px;
+  margin: 60px auto 37px auto;
+  // font-family: MuseoSlab;
+  font-size: 36px;
+  font-weight: 300;
+  line-height: 1.11;
+  letter-spacing: -0.5px;
+  text-align: center;
+  color: $teal;
+}
+
+.footer-images-container {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.upper-level {
+  margin: 0 248px 0 251px;
+}
+
+.lower-level {
+  margin: 0 465px 0 477px;
+}
+
+.footer-logo {
+  object-fit: contain;
+}
+
+.edu-week {
+  height: 29.1px;
+  width: 245.5px;
+}
+
+.usa-today {
+  height: 43.1px;
+  opacity: 0.5;
+  width: 230.2px;
+}
+
+.nyt {
+  height: 34px;
+  width: 240px;
+}
+
+.ed-surge {
+  height: 116.6px;
+  width: 207.8px;
+}
+
+.tech-learning {
+  height: 46.9px;
+  opacity: 0.8;
+  width: 142.1px;
+}
