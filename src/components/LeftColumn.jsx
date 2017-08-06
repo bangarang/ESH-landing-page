@@ -5,16 +5,16 @@ const LeftColumn = () => {
     <div className="left-column">
       <div className="left-content-one">
         <p className="small-info left-info-one">
-          Today, robust and reliable internet access is<br />
-          the cornerstone to powering technology in the<br />
-          classroom. Yet more than 11 million students<br />
-          across the country still do not have high-speed<br />
-          broadband in their schools.<br />
-          <br />
-          EducationSuperHighway is the leading non-<br />
-          profit working in partnership with school<br />
-          district leaders to ensure every student has the<br />
-          opportunity to take advantage of the promise<br />
+          Today, robust and reliable internet access is
+          the cornerstone to powering technology in the
+          classroom. Yet more than 11 million students
+          across the country still do not have high-speed
+          broadband in their schools.
+          <br /><br />
+          EducationSuperHighway is the leading non-
+          profit working in partnership with school
+          district leaders to ensure every student has the
+          opportunity to take advantage of the promise
           of digital learning.
         </p>
         <p className="large-info teal left-info-two">
@@ -30,10 +30,10 @@ const LeftColumn = () => {
       </div>
       <div className="left-content-two">
         <p className="large-info black left-info-three">
-          EducationSuperHighway<br />
-          was founded by a parent<br />
-          who saw the need to<br />
-          bring national attention to<br />
+          EducationSuperHighway
+          was founded by a parent
+          who saw the need to
+          bring national attention to
           the K-12 connectivity gap.
         </p>
         <p className="small-info left-info-four">

@@ -12,6 +12,7 @@
 
 .left-info-one {
   height: 392px;
+  width: 400.7px;
 }
 
 .left-info-two {
@@ -21,6 +22,8 @@
 
 .left-info-three {
   height: 200px;
+  // custom width to match mockup
+  width: 386px;
 }
 
 .left-info-four {
@@ -59,4 +62,42 @@
   letter-spacing: 0.5px;
   margin-top: 38px;
   text-align: center;
+}
+
+@media only screen and (max-width: 414px) {
+  .left-column {
+    order: 1;
+    position: absolute;
+  }
+  .left-info-one {
+    font-size: 14px;
+    font-weight: 300;
+    height: 296px;
+    line-height: 1.71;
+    width: $content-width-mobile;
+  }
+  .left-info-two {
+    height: 90px;
+    width: $content-width-mobile;
+  }
+  .discover-button {
+    margin-top: 33.8px;
+    width: 280px;
+  }
+  .left-info-three {
+    height: 180px;
+    margin-top: 1060px;
+    width: 260px;
+  }
+  .left-info-four {
+    height: 96px;
+    margin: 31px 0;
+    width: $content-width-mobile;
+  }
+  .link-text {
+    font-size: 12px;
+    font-weight: bold;
+    height: 15px;
+    width: $content-width-mobile;
+  }
 }

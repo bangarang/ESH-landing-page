@@ -13,7 +13,7 @@ const Content = () => {
         alt="Educational Superhighway"
       />
       <p className="header">
-        Accelerate Your School District's<br />Digital Future
+        Accelerate Your School District's Digital Future
       </p>
       <p className="sub-header">
         Ensuring high-speed Internet connections for America's students

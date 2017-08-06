@@ -21,11 +21,13 @@
 .right-info-two {
   height: 212px;
   margin-top: 27.6px;
+  width: 384px;
 }
 
 .right-info-three {
   height: 160px;
   margin-top: 35.5px;
+  width: 348px;
 }
 
 .orange-text {
@@ -42,11 +44,12 @@
 }
 
 .orange-underline {
-  width: 358px;
-  border-style: solid;
-  border-width: 1px;
   border-image-source: linear-gradient(to right, $primary-orange, $dark-orange);
   border-image-slice: 1;
+  border-style: solid;
+  border-width: 1px;
+  margin-top: -20px;
+  width: 358px;
 }
 
 .italic-info {
@@ -81,4 +84,45 @@
   opacity: 0.9;
   text-align: left;
   width: 457px;
+}
+
+@media only screen and (max-width: 414px) {
+  .right-column {
+    order: 2;
+    position: absolute;
+    left: 0;
+  }
+  .right-content-one {
+    margin-left: 0;
+    margin-top: 1759.4px;
+  }
+  .right-info-one {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 2.64;
+    height: 35.2px;
+    letter-spacing: -0.2px;
+  }
+  .orange-text {
+    width: 296px;
+    height: 37px;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.85;
+    letter-spacing: -0.2px;
+    margin-top: 0;
+  }
+  .orange-underline {
+    width: $content-width-mobile;
+  }
+  .right-info-two {
+    height: 160px;
+    margin-top: 12px;
+    width: $content-width-mobile;
+  }
+  .right-info-three {
+    height: 120px;
+    margin-top: 27px;
+    width: $content-width-mobile;
+  }
 }

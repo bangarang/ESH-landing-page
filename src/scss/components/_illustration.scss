@@ -21,3 +21,28 @@
   width: 323px;
   z-index: 13;
 }
+
+@media only screen and (max-width: 414px) {
+  .illustration-container {
+    position: relative;
+    width: 100%;
+    z-index: 12;
+  }
+
+  .illustration-one {
+    object-fit: cover;
+    left: -60px;
+    position: absolute;
+    width: 414px;
+    z-index: 13;
+  }
+  .illustration-two {
+    margin-top: -200px;
+    object-fit: cover;
+    left: -60px;
+    position: absolute;
+    transform: rotate(-90deg);
+    width: 414px;
+    z-index: 13;
+  }
+}

@@ -9,21 +9,21 @@ const RightColumn = () => {
         </p>
         <p className="orange-text">
           technical assistance
-          <div className="orange-underline" />
         </p>
+        <div className="orange-underline" />
         <p className="small-info right-info-two">
-          to help you arrive at sustainable Internet<br />
-          solutions for your schools.<br />
-          <br />
-          Our team is here to help you plan and<br />
-          implement a network upgrade. We also work<br />
-          with you to maximize the federal and state<br />
+          to help you arrive at sustainable Internet
+          solutions for your schools.
+          <br /><br />
+          Our team is here to help you plan and
+          implement a network upgrade. We also work
+          with you to maximize the federal and state
           funds available for school connectivity.
         </p>
         <p className="large-info teal right-info-three">
-          There is no catch.<br />
-          Everything we do for<br />
-          school districts is free<br />
+          There is no catch.
+          Everything we do for
+          school districts is free 
           of charge.
         </p>
       </div>

@@ -1,19 +1,19 @@
 import React from 'react';
 import nytLogoLarge from '../assets/nyt@3x.png';
-import nytLogoMedium from '../assets/nyt@2x.png';
-import nytLogoSmall from '../assets/nyt.png';
+// import nytLogoMedium from '../assets/nyt@2x.png';
+// import nytLogoSmall from '../assets/nyt.png';
 import eduWeekLogoLarge from '../assets/edu-week@3x.png';
-import eduWeekLogoMedium from '../assets/edu-week@2x.png';
-import eduWeekLogoSmall from '../assets/edu-week.png';
+// import eduWeekLogoMedium from '../assets/edu-week@2x.png';
+// import eduWeekLogoSmall from '../assets/edu-week.png';
 import edSurgeLogoLarge from '../assets/ed-surge@3x.png';
-import edSurgeLogoMedium from '../assets/ed-surge@2x.png';
-import edSurgeLogoSmall from '../assets/ed-surge.png';
+// import edSurgeLogoMedium from '../assets/ed-surge@2x.png';
+// import edSurgeLogoSmall from '../assets/ed-surge.png';
 import techLearnLogoLarge from '../assets/tech-learning@3x.png';
-import techLearnLogoMedium from '../assets/tech-learning@2x.png';
-import techLearnLogoSmall from '../assets/tech-learning.png';
+// import techLearnLogoMedium from '../assets/tech-learning@2x.png';
+// import techLearnLogoSmall from '../assets/tech-learning.png';
 import usaTodayLogoLarge from '../assets/usa-today@3x.png';
-import usaTodayLogoMedium from '../assets/usa-today@2x.png';
-import usaTodayLogoSmall from '../assets/usa-today.png';
+// import usaTodayLogoMedium from '../assets/usa-today@2x.png';
+// import usaTodayLogoSmall from '../assets/usa-today.png';
 
 const Footer = () => {
   return(

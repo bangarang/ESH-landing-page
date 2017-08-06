@@ -11,21 +11,22 @@
 }
 
 .header {
-  height: 100px;
   font-family: $museo-slab;
   font-size: 50px;
   font-weight: bold;
+  height: 100px;
   line-height: 1;
   letter-spacing: -0.6px;
   margin-top: 68.3px;
   opacity: 0.9;
   text-align: left;
+  width: 823.8px;
 }
 
 .sub-header {
-  height: 32px;
   font-family: $lato;
   font-size: 26px;
+  height: 32px;
   line-height: 1.23;
   margin-top: 20.5px;
   opacity: 0.9;
@@ -37,13 +38,33 @@
   justify-content: space-between;
 }
 
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 414px) {
   .content-container {
     margin: 20px 19px 0 20.2px;
+    width: 100%;
   }
   .esh-logo {
-    height: 67.7px;
+    height: 40.8px;
     object-fit: contain;
-    width: 299.4px;
+    width: 180.7px;
+  }
+  .header {
+    font-size: 30px;
+    height: 102px;
+    line-height: 1.13;
+    margin-top: 18.2px;
+    width: $content-width-mobile;
+  }
+  .sub-header {
+    font-size: 18px;
+    height: 40px;
+    line-height: 1.11;
+    margin-top: 6.8px;
+    width: $content-width-mobile;
+  }
+  .column-container {
+    display: column;
+    position: relative;
+    z-index: 12;
   }
 }
