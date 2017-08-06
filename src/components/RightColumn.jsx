@@ -4,14 +4,14 @@ const RightColumn = () => {
   return (
     <div className="right-column">
       <div className="right-content-one">
-        <p className="small-info">
+        <p className="small-info right-info-one">
           We offer
         </p>
         <p className="orange-text">
           technical assistance
+          <div className="orange-underline" />
         </p>
-        <div className="orange-underline" />
-        <p className="small-info">
+        <p className="small-info right-info-two">
           to help you arrive at sustainable Internet<br />
           solutions for your schools.<br />
           <br />
@@ -20,7 +20,7 @@ const RightColumn = () => {
           with you to maximize the federal and state<br />
           funds available for school connectivity.
         </p>
-        <p className="large-info teal">
+        <p className="large-info teal right-info-three">
           There is no catch.<br />
           Everything we do for<br />
           school districts is free<br />
@@ -39,6 +39,7 @@ const RightColumn = () => {
           Darla Meeuwsen, Superintendent<br />
           Sauvie Island Academy, Oregon
         </p>
+        <div className="black-line" />
         <p className="italic-info">
           We are so grateful for all your help<br />
           with the RFP. Getting fiber to our<br />
@@ -50,6 +51,7 @@ const RightColumn = () => {
           Cayuse Prairie School District, Montana
         </p>
       </div>
+      <div className="right-block" />
     </div>
   );
 }

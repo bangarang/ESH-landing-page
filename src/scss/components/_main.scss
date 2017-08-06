@@ -1,25 +1,26 @@
-.background {
-  position: relative;
+.background-container {
+  background-color: $primary-orange;
+  height: $background-height-desktop;
   width: $background-width-desktop;
-  z-index: 1;
 }
 
 .main-background {
-  background-color: $primary-orange;
-  height: $background-height-desktop;
-}
-
-.top-background {
-  background-image: linear-gradient(323deg, $primary-orange, $primary-orange 34%, $dark-orange);
-  height: 1523px;
-}
-
-.middle-background {
-  background-color: $white;
-  height: 1576px;
+  background-image: linear-gradient(323deg, $primary-orange, $primary-orange 40.4%, $dark-orange);
+  // height of background less footer height
+  height: 3767px;
   position: relative;
+  z-index: 1;
+}
+
+.white-background {
+  background-color: $white;
+  height: 1324px;
+  margin-top: 1130px;
+  position: absolute;
+  width: $background-width-desktop;
   z-index: 8;
-  
+
+  // skew support
   -webkit-transform: skewY(30deg);
   -moz-transform: skewY(30deg);
   -ms-transform: skewY(30deg);
@@ -27,7 +28,30 @@
   transform: skewY(30deg);
 }
 
-.bottom-background {
-  background-color: $primary-orange;
-  height: 1692px;
+.background-image-container {
+  bottom: 0;
+  position: absolute;
+}
+
+.image-gradient {
+  background-image:
+    linear-gradient(
+      to bottom,
+      $primary-orange 10%,
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0),
+      $primary-orange
+    );
+  height: 956px;
+  position: absolute;
+  width: $background-width-desktop;
+  z-index: 3;
+}
+
+.background-image {
+  background: $primary-orange;
+  object-fit: contain;
+  position: relative;
+  width: $background-width-desktop;
+  z-index: 2;
 }

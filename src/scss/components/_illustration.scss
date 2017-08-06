@@ -1,0 +1,23 @@
+.illustration-container {
+  margin-top: -100px;
+  position: absolute;
+  z-index: 12;
+}
+
+.illustration-one {
+  width: 935px;
+  height: 2194px;
+  object-fit: contain;
+  opacity: 0.8;
+  mix-blend-mode: multiply;
+}
+
+.illustration-two {
+  height: 475px;
+  left: 204px;
+  object-fit: contain;
+  position: absolute;
+  top: 1539.1px;
+  width: 323px;
+  z-index: 13;
+}

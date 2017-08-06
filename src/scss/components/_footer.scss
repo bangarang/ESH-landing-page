@@ -1,6 +1,9 @@
 .footer-container {
   background-color: $white;
   height: 383px;
+  width: 100%;
+  position: absolute;
+  z-index: 8;
 }
 
 .footer-text {

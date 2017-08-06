@@ -1,0 +1,62 @@
+.left-column {
+  width: 410px;
+}
+
+.left-content-one {
+  margin-top: 800.3px;
+}
+
+.left-content-two {
+  margin-top: 720.7px;
+}
+
+.left-info-one {
+  height: 392px;
+}
+
+.left-info-two {
+  height: 120px;
+  width: 410px;
+}
+
+.left-info-three {
+  height: 200px;
+}
+
+.left-info-four {
+  height: 160px;
+  margin-top: 33px;
+}
+
+.discover-button {
+  border: solid 2px $primary-orange;
+  border-radius: 7px;
+  display: flex;
+  height: 55.5px;
+  justify-content: center;
+  margin-top: 42px;
+  width: 224.7px;
+}
+
+.discover-text {
+  color: $dark-gray;
+  height: 24px;
+  font-family: Lato;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  margin-top: 16px;
+  text-align: center;
+  width: 175.5px;
+}
+
+.link-text {
+  color: $black;
+  height: 19px;
+  font-family: $lato;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  margin-top: 38px;
+  text-align: center;
+}

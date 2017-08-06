@@ -4,7 +4,7 @@ const LeftColumn = () => {
   return (
     <div className="left-column">
       <div className="left-content-one">
-        <p className="small-info">
+        <p className="small-info left-info-one">
           Today, robust and reliable internet access is<br />
           the cornerstone to powering technology in the<br />
           classroom. Yet more than 11 million students<br />
@@ -17,10 +17,10 @@ const LeftColumn = () => {
           opportunity to take advantage of the promise<br />
           of digital learning.
         </p>
-        <p className="large-info teal">
+        <p className="large-info teal left-info-two">
           Together, we can<br />
-          accelerate your<br />
-          school district’s digital future.
+          accelerate your school<br />
+          district’s digital future.
         </p>
         <div className="discover-button">
           <p className="discover-text">
@@ -29,14 +29,14 @@ const LeftColumn = () => {
         </div>
       </div>
       <div className="left-content-two">
-        <p className="large-info black">
+        <p className="large-info black left-info-three">
           EducationSuperHighway<br />
           was founded by a parent<br />
           who saw the need to<br />
           bring national attention to<br />
           the K-12 connectivity gap.
         </p>
-        <p className="small-info">
+        <p className="small-info left-info-four">
           Since then we’ve helped thousands of school<br />
           districts test their Internet speeds and<br />
           supported hundreds through the process of<br />
@@ -50,6 +50,7 @@ const LeftColumn = () => {
           Learn more about how we help school districts.
         </a>
       </div>
+      <div className="left-block" />
     </div>
   );
 }
