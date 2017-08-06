@@ -1,5 +1,7 @@
 .background {
+  position: relative;
   width: $background-width-desktop;
+  z-index: 1;
 }
 
 .main-background {
@@ -15,6 +17,9 @@
 .middle-background {
   background-color: $white;
   height: 1576px;
+  position: relative;
+  z-index: 8;
+  
   -webkit-transform: skewY(30deg);
   -moz-transform: skewY(30deg);
   -ms-transform: skewY(30deg);

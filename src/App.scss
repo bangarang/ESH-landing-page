@@ -4,6 +4,9 @@ body {
   padding: 0;
 }
 
-@import './scss/variables';
-@import './scss/main';
-@import './scss/footer';
+@import url('https://fonts.googleapis.com/css?family=Lato');
+@import './scss/abstracts/variables';
+@import './scss/components/main';
+@import './scss/components/content';
+@import './scss/components/columns';
+@import './scss/components/footer';

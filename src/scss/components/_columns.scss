@@ -1,0 +1,125 @@
+.left-column {
+  width: 410px;
+}
+
+.left-content-one {
+  margin-top: 1108.8px;
+}
+
+.left-content-two {
+  margin-top: 720.7px;
+}
+
+.right-column {
+  width: 457px;
+}
+
+.right-content-one {
+  margin-top: 1667.9px;
+}
+
+.right-content-two {
+  margin-top: 776px;
+}
+
+.small-info {
+  font-family: $lato;
+  font-size: 20px;
+  font-weight: 300;
+  letter-spacing: -0.1px;
+  line-height: 1.6;
+  text-align: left;
+}
+
+.large-info {
+  font-family: $museo-slab;
+  font-size: 34px;
+  font-weight: 300;
+  line-height: 1.18;
+  letter-spacing: -0.5px;
+  text-align: left;
+}
+
+.black {
+  color: $black;
+}
+
+.teal {
+  color: $teal;
+}
+
+.discover-button {
+  border: solid 2px $primary-orange;
+  border-radius: 7px;
+  display: flex;
+  height: 55.5px;
+  justify-content: center;
+  width: 224.7px;
+}
+
+.discover-text {
+  color: $dark-gray;
+  height: 24px;
+  font-family: Lato;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  margin-top: 16px;
+  text-align: center;
+  width: 175.5px;
+}
+
+.link-text {
+  height: 19px;
+  font-family: $lato;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: $black;
+}
+
+.orange-text {
+  width: 477.4px;
+  height: 37px;
+  font-family: $lato;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1.54;
+  letter-spacing: -0.2px;
+  text-align: left;
+  color: $dark-orange;
+}
+
+.orange-underline {
+  width: 358px;
+  border-style: solid;
+  border-width: 1px;
+  border-image-source: linear-gradient(to right, $primary-orange, $dark-orange);
+  border-image-slice: 1;
+}
+
+.italic-info {
+  width: 424.9px;
+  height: 180px;
+  opacity: 0.9;
+  // museo slab 300 is an italic font
+  // font-family: MuseoSlab-300;
+  font-family: $museo-slab;
+  font-size: 24px;
+  font-style: italic;
+  line-height: 1.5;
+  text-align: left;
+  color: $black;
+}
+
+.extra-small-info {
+  width: 457px;
+  height: 66px;
+  opacity: 0.9;
+  font-family: $lato;
+  font-size: 16px;
+  line-height: 1.38;
+  text-align: left;
+  color: $black;
+}
