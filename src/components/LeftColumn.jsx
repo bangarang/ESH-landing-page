@@ -17,9 +17,9 @@ const LeftColumn = () => {
           opportunity to take advantage of the promise
           of digital learning.
         </p>
-        <p className="large-info teal left-info-two">
-          Together, we can<br />
-          accelerate your school<br />
+        <p className="large-info teal left-info-two tk-museo-slab">
+          Together, we can
+          accelerate your school
           district’s digital future.
         </p>
         <div className="discover-button">
@@ -29,7 +29,7 @@ const LeftColumn = () => {
         </div>
       </div>
       <div className="left-content-two">
-        <p className="large-info black left-info-three">
+        <p className="large-info black left-info-three tk-museo-slab">
           EducationSuperHighway
           was founded by a parent
           who saw the need to
@@ -50,7 +50,6 @@ const LeftColumn = () => {
           Learn more about how we help school districts.
         </a>
       </div>
-      <div className="left-block" />
     </div>
   );
 }

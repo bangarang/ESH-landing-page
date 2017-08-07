@@ -20,15 +20,15 @@ const RightColumn = () => {
           with you to maximize the federal and state
           funds available for school connectivity.
         </p>
-        <p className="large-info teal right-info-three">
+        <p className="large-info teal right-info-three tk-museo-slab">
           There is no catch.
           Everything we do for
-          school districts is free 
+          school districts is free
           of charge.
         </p>
       </div>
       <div className="right-content-two">
-        <p className="italic-info">
+        <p className="italic-info tk-museo-slab">
           In the beginning, we thought that<br />
           this was too good to be true. What<br />
           EducationSuperHighway is doing&mdash;<br />
@@ -40,7 +40,7 @@ const RightColumn = () => {
           Sauvie Island Academy, Oregon
         </p>
         <div className="black-line" />
-        <p className="italic-info">
+        <p className="italic-info tk-museo-slab">
           We are so grateful for all your help<br />
           with the RFP. Getting fiber to our<br />
           district is a bigger project than we<br />
@@ -51,7 +51,6 @@ const RightColumn = () => {
           Cayuse Prairie School District, Montana
         </p>
       </div>
-      <div className="right-block" />
     </div>
   );
 }
