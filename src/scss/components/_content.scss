@@ -41,7 +41,7 @@
 @media only screen and (max-width: 414px) {
   .content-container {
     margin: 20px 19px 0 20.2px;
-    width: 100%;
+    width: $content-width-mobile;
   }
   .esh-logo {
     height: 40.8px;

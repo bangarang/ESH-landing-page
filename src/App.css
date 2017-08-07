@@ -48,10 +48,12 @@ body, p {
 @media only screen and (max-width: 414px) {
   .background-container {
     background-color: #fdb913;
-    height: 3037;
+    height: 3037px;
     width: 100%; }
   .white-background {
-    margin-top: 1430px; }
+    height: 1556px;
+    margin-top: 850px;
+    width: 100%; }
   .image-gradient {
     display: none; }
   .background-image {
@@ -94,7 +96,7 @@ body, p {
 @media only screen and (max-width: 414px) {
   .content-container {
     margin: 20px 19px 0 20.2px;
-    width: 100%; }
+    width: 280px; }
   .esh-logo {
     height: 40.8px;
     object-fit: contain;
@@ -144,14 +146,14 @@ body, p {
     z-index: 12; }
   .illustration-one {
     object-fit: cover;
-    left: -60px;
+    left: -20px;
     position: absolute;
     width: 414px;
     z-index: 13; }
   .illustration-two {
     margin-top: -200px;
     object-fit: cover;
-    left: -60px;
+    left: -20px;
     position: absolute;
     transform: rotate(-90deg);
     width: 414px;
@@ -245,7 +247,8 @@ body, p {
 @media only screen and (max-width: 414px) {
   .left-column {
     order: 1;
-    position: absolute; }
+    position: absolute;
+    width: 280px; }
   .left-info-one {
     font-size: 14px;
     font-weight: 300;
@@ -352,7 +355,8 @@ body, p {
     width: 280px; }
   .right-content-one {
     margin-left: 0;
-    margin-top: 1759.4px; }
+    margin-top: 1759.4px;
+    width: 280px; }
   .right-info-one {
     font-size: 14px;
     font-weight: 300;

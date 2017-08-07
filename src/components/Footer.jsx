@@ -18,7 +18,7 @@ import usaTodayLogoLarge from '../assets/usa-today@3x.png';
 const Footer = () => {
   return(
     <div className="footer-container">
-      <p className="footer-text">
+      <p className="footer-text tk-museo-slab">
         As seen in:
       </p>
       <div className="footer-images-container upper-level">
