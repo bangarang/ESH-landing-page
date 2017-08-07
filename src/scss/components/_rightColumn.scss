@@ -48,7 +48,7 @@
   border-image-slice: 1;
   border-style: solid;
   border-width: 1px;
-  margin-top: -20px;
+  // margin-top: -20px;
   width: 358px;
 }
 
@@ -90,6 +90,7 @@
     order: 2;
     position: absolute;
     left: 0;
+    width: $content-width-mobile;
   }
   .right-content-one {
     margin-left: 0;
@@ -123,5 +124,9 @@
     height: 120px;
     margin-top: 27px;
     width: $content-width-mobile;
+  }
+  .right-content-two {
+    margin-top: 660px;
+    margin-left: 0;
   }
 }

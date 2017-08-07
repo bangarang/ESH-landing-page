@@ -12,7 +12,7 @@ const Content = () => {
         src={eshLogoLarge}
         alt="Educational Superhighway"
       />
-      <p className="header">
+      <p className="header tk-museo-slab">
         Accelerate Your School District's Digital Future
       </p>
       <p className="sub-header">

@@ -1,5 +1,5 @@
 // Remove margins and padding from body
-body {
+body, p {
   margin: 0;
   padding: 0;
 }
@@ -12,4 +12,5 @@ body {
 @import './scss/components/columns';
 @import './scss/components/leftColumn';
 @import './scss/components/rightColumn';
+@import './scss/components/carousel';
 @import './scss/components/footer';

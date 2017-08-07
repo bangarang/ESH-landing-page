@@ -1,4 +1,5 @@
 import React from 'react';
+import Carousel from './Carousel';
 
 const RightColumn = () => {
   return (
@@ -28,28 +29,7 @@ const RightColumn = () => {
         </p>
       </div>
       <div className="right-content-two">
-        <p className="italic-info tk-museo-slab">
-          In the beginning, we thought that<br />
-          this was too good to be true. What<br />
-          EducationSuperHighway is doing&mdash;<br />
-          at no cost and while being so helpful<br />
-          —is so hard to believe.
-        </p>
-        <p className="extra-small-info">
-          Darla Meeuwsen, Superintendent<br />
-          Sauvie Island Academy, Oregon
-        </p>
-        <div className="black-line" />
-        <p className="italic-info tk-museo-slab">
-          We are so grateful for all your help<br />
-          with the RFP. Getting fiber to our<br />
-          district is a bigger project than we<br />
-          have ever taken on, but you made it<br />seem easy!
-        </p>
-        <p className="extra-small-info">
-          John Wehrman, Technology Director<br />
-          Cayuse Prairie School District, Montana
-        </p>
+        <Carousel />
       </div>
     </div>
   );

@@ -1,0 +1,34 @@
+@media only screen and (max-width: 414px) {
+  .italic-info {
+    font-size: 16px;
+    height: 182px;
+    line-height: 1.63;
+    margin: 0;
+    width: 200px;
+  }
+  .extra-small-info {
+    width: 200px;
+    height: 51px;
+    font-size: 11px;
+    line-height: 1.55;
+  }
+  .black-line {
+    display: none;
+  }
+  .carousel-container {
+    display: flex;
+  }
+  .carousel-icons {
+    height: 32px;
+    margin-top: 136px;
+    width: 15px;
+    object-fit: contain;
+  }
+  .chevron-left {
+    margin-right: 25px;
+    transform: rotate(180deg);
+  }
+  .chevron-right {
+    margin-left: 25px;
+  }
+}

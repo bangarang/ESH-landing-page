@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Lato");
-body {
+body, p {
   margin: 0;
   padding: 0; }
 
@@ -68,7 +68,6 @@ body {
   width: 299.4px; }
 
 .header {
-  font-family: museo slab, sans-serif;
   font-size: 50px;
   font-weight: bold;
   height: 100px;
@@ -315,7 +314,6 @@ body {
   border-image-slice: 1;
   border-style: solid;
   border-width: 1px;
-  margin-top: -20px;
   width: 358px; }
 
 .italic-info {
@@ -350,7 +348,8 @@ body {
   .right-column {
     order: 2;
     position: absolute;
-    left: 0; }
+    left: 0;
+    width: 280px; }
   .right-content-one {
     margin-left: 0;
     margin-top: 1759.4px; }
@@ -377,7 +376,37 @@ body {
   .right-info-three {
     height: 120px;
     margin-top: 27px;
-    width: 280px; } }
+    width: 280px; }
+  .right-content-two {
+    margin-top: 660px;
+    margin-left: 0; } }
+
+@media only screen and (max-width: 414px) {
+  .italic-info {
+    font-size: 16px;
+    height: 182px;
+    line-height: 1.63;
+    margin: 0;
+    width: 200px; }
+  .extra-small-info {
+    width: 200px;
+    height: 51px;
+    font-size: 11px;
+    line-height: 1.55; }
+  .black-line {
+    display: none; }
+  .carousel-container {
+    display: flex; }
+  .carousel-icons {
+    height: 32px;
+    margin-top: 136px;
+    width: 15px;
+    object-fit: contain; }
+  .chevron-left {
+    margin-right: 25px;
+    transform: rotate(180deg); }
+  .chevron-right {
+    margin-left: 25px; } }
 
 .footer-container {
   background-color: #ffffff;
@@ -432,3 +461,7 @@ body {
   height: 46.9px;
   opacity: 0.8;
   width: 142.1px; }
+
+@media only screen and (max-width: 414px) {
+  .footer-container {
+    display: none; } }
