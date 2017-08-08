@@ -21,7 +21,7 @@ const Footer = () => {
       <p className="footer-text tk-museo-slab">
         As seen in:
       </p>
-      <div className="footer-images-container upper-level">
+      <div className="footer-images-container">
         <img
           className="footer-logo edu-week"
           src={eduWeekLogoLarge}
@@ -37,8 +37,6 @@ const Footer = () => {
           src={nytLogoLarge}
           alt="New York Times"
         />
-      </div>
-      <div className="footer-images-container lower-level">
         <img
           className="footer-logo ed-surge"
           src={edSurgeLogoLarge}

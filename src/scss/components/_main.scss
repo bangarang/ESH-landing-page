@@ -6,7 +6,6 @@
 
 .main-background {
   background-image: linear-gradient(323deg, $primary-orange, $primary-orange 40.4%, $dark-orange);
-  // height of background less footer height
   height: 3767px;
   position: relative;
   z-index: 1;
@@ -20,7 +19,6 @@
   width: $background-width-desktop;
   z-index: 8;
 
-  // skew support
   -webkit-transform: skewY(30deg);
   -moz-transform: skewY(30deg);
   -ms-transform: skewY(30deg);
@@ -58,19 +56,24 @@
 
 @media only screen and (max-width: 414px) {
   .background-container {
-    background-color: $primary-orange;
-    height: $background-height-mobile;
     width: 100%;
+  }
+  .main-background {
+    height: $background-height-mobile;
   }
   .white-background {
     height: 1556px;
-    margin-top: 850px;
+    margin-top: 890px;
     width: 100%;
   }
+  .background-image-container {
+    bottom: -200px;
+  }
   .image-gradient {
-    display: none;
+    height: 275.6px;
+    width: 100%;
   }
   .background-image {
-    display: none;
+    width: 100%;
   }
 }

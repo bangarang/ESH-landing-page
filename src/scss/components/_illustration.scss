@@ -1,15 +1,15 @@
 .illustration-container {
-  margin-top: -100px;
+  margin-top: -44px;
   position: absolute;
   z-index: 12;
 }
 
 .illustration-one {
-  width: 935px;
   height: 2194px;
+  mix-blend-mode: multiply;
   object-fit: contain;
   opacity: 0.8;
-  mix-blend-mode: multiply;
+  width: 935px;
 }
 
 .illustration-two {
@@ -39,10 +39,10 @@
   .illustration-two {
     margin-top: -200px;
     object-fit: cover;
-    left: -20px;
+    left: -6px;
     position: absolute;
     transform: rotate(-90deg);
-    width: 414px;
+    // width: 414px;
     z-index: 13;
   }
 }

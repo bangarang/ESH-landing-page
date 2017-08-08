@@ -47,17 +47,20 @@ body, p {
 
 @media only screen and (max-width: 414px) {
   .background-container {
-    background-color: #fdb913;
-    height: 3037px;
     width: 100%; }
+  .main-background {
+    height: 3037px; }
   .white-background {
     height: 1556px;
-    margin-top: 850px;
+    margin-top: 890px;
     width: 100%; }
+  .background-image-container {
+    bottom: -200px; }
   .image-gradient {
-    display: none; }
+    height: 275.6px;
+    width: 100%; }
   .background-image {
-    display: none; } }
+    width: 100%; } }
 
 .content-container {
   margin: 20px 248px 0 251px;
@@ -119,16 +122,16 @@ body, p {
     z-index: 12; } }
 
 .illustration-container {
-  margin-top: -100px;
+  margin-top: -44px;
   position: absolute;
   z-index: 12; }
 
 .illustration-one {
-  width: 935px;
   height: 2194px;
+  mix-blend-mode: multiply;
   object-fit: contain;
   opacity: 0.8;
-  mix-blend-mode: multiply; }
+  width: 935px; }
 
 .illustration-two {
   height: 475px;
@@ -153,10 +156,9 @@ body, p {
   .illustration-two {
     margin-top: -200px;
     object-fit: cover;
-    left: -20px;
+    left: -6px;
     position: absolute;
     transform: rotate(-90deg);
-    width: 414px;
     z-index: 13; } }
 
 .small-info {
@@ -212,7 +214,7 @@ body, p {
 
 .left-info-four {
   height: 160px;
-  margin-top: 33px; }
+  margin: 33px 0 38px 0; }
 
 .discover-button {
   border: solid 2px #fdb913;
@@ -415,9 +417,7 @@ body, p {
 .footer-container {
   background-color: #ffffff;
   height: 383px;
-  width: 100%;
-  position: absolute;
-  z-index: 8; }
+  width: 100%; }
 
 .footer-text {
   height: 40px;
@@ -427,16 +427,19 @@ body, p {
   font-weight: 300;
   line-height: 1.11;
   letter-spacing: -0.5px;
+  padding-top: 60px;
   text-align: center;
   color: #009296; }
 
 .footer-images-container {
   align-items: center;
   display: flex;
-  justify-content: space-between; }
+  flex-wrap: wrap;
+  margin-left: 248px;
+  width: 941px; }
 
 .upper-level {
-  margin: 0 248px 0 251px; }
+  margin: 0 0 251px; }
 
 .lower-level {
   margin: 0 465px 0 477px; }
@@ -446,10 +449,12 @@ body, p {
 
 .edu-week {
   height: 29.1px;
+  margin-right: 105px;
   width: 245.5px; }
 
 .usa-today {
   height: 43.1px;
+  margin-right: 115.8px;
   opacity: 0.5;
   width: 230.2px; }
 
@@ -459,13 +464,50 @@ body, p {
 
 .ed-surge {
   height: 116.6px;
+  padding-left: 217px;
   width: 207.8px; }
 
 .tech-learning {
   height: 46.9px;
   opacity: 0.8;
+  padding-left: 148.2px;
   width: 142.1px; }
 
 @media only screen and (max-width: 414px) {
   .footer-container {
-    display: none; } }
+    margin-top: 300px;
+    width: 100%; }
+  .footer-text {
+    height: 48px;
+    font-size: 24px;
+    font-weight: 300;
+    letter-spacing: -0.3px;
+    line-height: 2;
+    padding-top: 20px;
+    width: 262.1px; }
+  .footer-images-container {
+    margin-left: 20px;
+    width: 280px; }
+  .edu-week {
+    height: 17px;
+    margin-right: 0;
+    width: 130.6px; }
+  .usa-today {
+    height: 23.9px;
+    margin-right: 0;
+    padding-left: 32.4px;
+    width: 116.7px; }
+  .nyt {
+    height: 20.1px;
+    margin-top: 38.5px;
+    width: 129.6px; }
+  .ed-surge {
+    height: 55.6px;
+    margin-top: 35.6px;
+    padding-left: 48.6px;
+    width: 90.3px; }
+  .tech-learning {
+    height: 26.8px;
+    margin-top: 53.4px;
+    padding-left: 22px;
+    width: 74px; } }
