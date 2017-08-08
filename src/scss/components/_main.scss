@@ -56,6 +56,9 @@
 
 @media only screen and (max-width: 414px) {
   .background-container {
+    // display: block;
+    // margin: 0 auto;
+    height: $background-height-mobile + 400px;
     width: 100%;
   }
   .main-background {
