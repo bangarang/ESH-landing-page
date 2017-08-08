@@ -12,18 +12,25 @@ class Carousel extends Component {
     };
 
     this.carouselSwitch = this.carouselSwitch.bind(this);
+    this.checkDevice = this.checkDevice.bind(this);
   }
   componentDidMount() {
+    // add event listener
     this.checkDevice();
+    window.addEventListener("resize", this.checkDevice);
   }
   checkDevice() {
     const browserWidth = window.innerWidth;
-    const mobileCheck = 420;
+    const mobileCheck = 414;
 
     if (browserWidth <= mobileCheck) {
       this.setState ({
         device: 'mobile',
       });
+    } else {
+      this.setState({
+        device: 'desktop',
+      })
     }
   }
   carouselSwitch() {

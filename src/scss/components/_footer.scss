@@ -1,13 +1,13 @@
 .footer-container {
   background-color: $white;
   height: 383px;
-  width: 100%;
+  width: $background-width-desktop;
 }
 
 .footer-text {
   height: 40px;
   width: 381px;
-  margin: 60px auto 37px auto;
+  margin: 0 auto 37px auto;
   // font-family: MuseoSlab;
   font-size: 36px;
   font-weight: 300;
@@ -22,16 +22,7 @@
   align-items: center;
   display: flex;
   flex-wrap: wrap;
-  margin-left: $content-left-margin;
-  width: 941px;
-}
-
-.upper-level {
-  margin: 0  0 $content-right-margin;
-}
-
-.lower-level {
-  margin: 0 465px 0 477px;
+  width: $background-width-desktop;
 }
 
 .footer-logo {
@@ -39,40 +30,37 @@
 }
 
 .edu-week {
-  height: 29.1px;
-  margin-right: 105px;
-  width: 245.5px;
+  margin: 0 7.2% 0 $content-left-margin;
+  width: 17%;
 }
 
 .usa-today {
-  height: 43.1px;
-  margin-right: 115.8px;
+  margin-right: 8%;
   opacity: 0.5;
-  width: 230.2px;
+  width: 16%;
 }
 
 .nyt {
-  height: 34px;
-  width: 240px;
+  width: 16.7%;
 }
 
 .ed-surge {
   height: 116.6px;
-  padding-left: 217px;
-  width: 207.8px;
+  padding-left: 32.3%;
+  width: 14.4%;
 }
 
 .tech-learning {
   height: 46.9px;
   opacity: 0.8;
-  padding-left: 148.2px;
-  width: 142.1px;
+  padding-left: 10.3%;
+  width: 9.8%;
 }
 
 @media only screen and (max-width: 414px) {
     .footer-container {
       margin-top: 300px;
-      width: 100%;
+      width: $background-width-mobile;
     }
     .footer-text {
       height: 48px;
@@ -89,7 +77,7 @@
     }
     .edu-week {
       height: 17px;
-      margin-right: 0;
+      margin: 0;
       width: 130.6px;
     }
 
@@ -115,7 +103,7 @@
 
     .tech-learning {
       height: 26.8px;
-      margin-top: 53.4px;
+      margin-top: 33.4px;
       padding-left: 22px;
       width: 74px;
     }

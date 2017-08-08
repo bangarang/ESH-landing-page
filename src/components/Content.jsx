@@ -2,7 +2,6 @@ import React from 'react';
 import eshLogoLarge from '../assets/esh-logo@3x.png';
 import LeftColumn from './LeftColumn';
 import RightColumn from './RightColumn';
-import Illustration from './Illustration';
 
 const Content = () => {
   return (
@@ -18,7 +17,6 @@ const Content = () => {
       <p className="sub-header">
         Ensuring high-speed Internet connections for America's students
       </p>
-      <Illustration />
       <div className="column-container">
         <LeftColumn />
         <RightColumn />

@@ -1,5 +1,5 @@
 .illustration-container {
-  margin-top: -44px;
+  margin: 250px 0 0 240px;
   position: absolute;
   z-index: 12;
 }
@@ -24,24 +24,26 @@
 
 @media only screen and (max-width: 414px) {
   .illustration-container {
-    position: relative;
-    width: 100%;
+    margin: 0;
+    width: $background-width-mobile;
     z-index: 12;
   }
 
   .illustration-one {
+    display: none;
     object-fit: cover;
-    left: -67px;
     position: absolute;
-    width: 414px;
+    width: $background-width-mobile;
     z-index: 13;
   }
   .illustration-two {
+    display: none;
+    left: 0;
     margin-top: -200px;
     object-fit: cover;
-    left: -56px;
     position: absolute;
     transform: rotate(-90deg);
+    width: $background-width-mobile;
     z-index: 13;
   }
 }

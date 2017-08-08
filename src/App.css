@@ -6,7 +6,7 @@ body, p {
 .background-container {
   background-color: #fdb913;
   height: 4150px;
-  width: 1440px; }
+  width: 100%; }
 
 .main-background {
   background-image: linear-gradient(323deg, #fdb913, #fdb913 40.4%, #f09221);
@@ -17,9 +17,9 @@ body, p {
 .white-background {
   background-color: #ffffff;
   height: 1324px;
-  margin-top: 1130px;
+  margin-top: 1118px;
   position: absolute;
-  width: 1440px;
+  width: 100%;
   z-index: 8;
   -webkit-transform: skewY(30deg);
   -moz-transform: skewY(30deg);
@@ -32,17 +32,18 @@ body, p {
   position: absolute; }
 
 .image-gradient {
-  background-image: linear-gradient(to bottom, #fdb913 10%, transparent, transparent, #fdb913);
-  height: 956px;
+  box-shadow: inset 0px -120px 150px #fdb913, inset 0px 120px 150px #fdb913;
+  height: 100%;
+  object-fit: contain;
   position: absolute;
-  width: 1440px;
+  width: 100%;
   z-index: 3; }
 
 .background-image {
   background: #fdb913;
   object-fit: contain;
   position: relative;
-  width: 1440px;
+  width: 100%;
   z-index: 2; }
 
 @media only screen and (max-width: 414px) {
@@ -50,21 +51,23 @@ body, p {
     height: 3437px;
     width: 100%; }
   .main-background {
-    height: 3037px; }
+    height: 3037px;
+    width: 100%; }
   .white-background {
-    height: 1556px;
+    height: 1536px;
     margin-top: 890px;
     width: 100%; }
   .background-image-container {
     bottom: -200px; }
   .image-gradient {
     height: 275.6px;
+    box-shadow: inset 0px -50px 50px #fdb913, inset 0px 50px 50px #fdb913;
     width: 100%; }
   .background-image {
     width: 100%; } }
 
 .content-container {
-  margin: 20px 248px 0 251px;
+  margin: 20px 16.73% 0 16.73%;
   position: absolute;
   z-index: 10; }
 
@@ -97,9 +100,17 @@ body, p {
   display: flex;
   justify-content: space-between; }
 
+@media only screen and (max-width: 1024px) {
+  .header {
+    font-size: 40px;
+    height: 136px;
+    line-height: 1.08;
+    margin-top: 18.2px;
+    width: 80%; } }
+
 @media only screen and (max-width: 414px) {
   .content-container {
-    margin: 20px 19px 0 16%;
+    margin: 20px auto 0 12%;
     width: 280px; }
   .esh-logo {
     height: 40.8px;
@@ -123,7 +134,7 @@ body, p {
     z-index: 12; } }
 
 .illustration-container {
-  margin-top: -44px;
+  margin: 250px 0 0 240px;
   position: absolute;
   z-index: 12; }
 
@@ -145,21 +156,23 @@ body, p {
 
 @media only screen and (max-width: 414px) {
   .illustration-container {
-    position: relative;
+    margin: 0;
     width: 100%;
     z-index: 12; }
   .illustration-one {
+    display: none;
     object-fit: cover;
-    left: -67px;
     position: absolute;
-    width: 414px;
+    width: 100%;
     z-index: 13; }
   .illustration-two {
+    display: none;
+    left: 0;
     margin-top: -200px;
     object-fit: cover;
-    left: -56px;
     position: absolute;
     transform: rotate(-90deg);
+    width: 100%;
     z-index: 13; } }
 
 .small-info {
@@ -423,7 +436,7 @@ body, p {
 .footer-text {
   height: 40px;
   width: 381px;
-  margin: 60px auto 37px auto;
+  margin: 0 auto 37px auto;
   font-size: 36px;
   font-weight: 300;
   line-height: 1.11;
@@ -436,43 +449,33 @@ body, p {
   align-items: center;
   display: flex;
   flex-wrap: wrap;
-  margin-left: 248px;
-  width: 941px; }
-
-.upper-level {
-  margin: 0 0 251px; }
-
-.lower-level {
-  margin: 0 465px 0 477px; }
+  width: 100%; }
 
 .footer-logo {
   object-fit: contain; }
 
 .edu-week {
-  height: 29.1px;
-  margin-right: 105px;
-  width: 245.5px; }
+  margin: 0 7.2% 0 16.73%;
+  width: 17%; }
 
 .usa-today {
-  height: 43.1px;
-  margin-right: 115.8px;
+  margin-right: 8%;
   opacity: 0.5;
-  width: 230.2px; }
+  width: 16%; }
 
 .nyt {
-  height: 34px;
-  width: 240px; }
+  width: 16.7%; }
 
 .ed-surge {
   height: 116.6px;
-  padding-left: 217px;
-  width: 207.8px; }
+  padding-left: 32.3%;
+  width: 14.4%; }
 
 .tech-learning {
   height: 46.9px;
   opacity: 0.8;
-  padding-left: 148.2px;
-  width: 142.1px; }
+  padding-left: 10.3%;
+  width: 9.8%; }
 
 @media only screen and (max-width: 414px) {
   .footer-container {
@@ -491,7 +494,7 @@ body, p {
     width: 280px; }
   .edu-week {
     height: 17px;
-    margin-right: 0;
+    margin: 0;
     width: 130.6px; }
   .usa-today {
     height: 23.9px;
@@ -509,6 +512,6 @@ body, p {
     width: 90.3px; }
   .tech-learning {
     height: 26.8px;
-    margin-top: 53.4px;
+    margin-top: 33.4px;
     padding-left: 22px;
     width: 74px; } }

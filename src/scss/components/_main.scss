@@ -14,7 +14,7 @@
 .white-background {
   background-color: $white;
   height: 1324px;
-  margin-top: 1130px;
+  margin-top: 1118px;
   position: absolute;
   width: $background-width-desktop;
   z-index: 8;
@@ -32,15 +32,9 @@
 }
 
 .image-gradient {
-  background-image:
-    linear-gradient(
-      to bottom,
-      $primary-orange 10%,
-      rgba(0, 0, 0, 0),
-      rgba(0, 0, 0, 0),
-      $primary-orange
-    );
-  height: 956px;
+  box-shadow: inset 0px -120px 150px $primary-orange, inset 0px 120px 150px $primary-orange;
+  height: 100%;
+  object-fit: contain;
   position: absolute;
   width: $background-width-desktop;
   z-index: 3;
@@ -56,27 +50,27 @@
 
 @media only screen and (max-width: 414px) {
   .background-container {
-    // display: block;
-    // margin: 0 auto;
     height: $background-height-mobile + 400px;
-    width: 100%;
+    width: $background-width-mobile;
   }
   .main-background {
     height: $background-height-mobile;
+    width: $background-width-mobile;
   }
   .white-background {
-    height: 1556px;
+    height: 1536px;
     margin-top: 890px;
-    width: 100%;
+    width: $background-width-mobile;
   }
   .background-image-container {
     bottom: -200px;
   }
   .image-gradient {
     height: 275.6px;
-    width: 100%;
+    box-shadow: inset 0px -50px 50px $primary-orange, inset 0px 50px 50px $primary-orange;
+    width: $background-width-mobile;
   }
   .background-image {
-    width: 100%;
+    width: $background-width-mobile;
   }
 }
