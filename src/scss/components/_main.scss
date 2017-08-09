@@ -48,6 +48,29 @@
   z-index: 2;
 }
 
+@media only screen and (max-width: 1024px) {
+  .background-container {
+    width: 1024px;
+  }
+  .white-background {
+    width: 1024px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .background-container {
+    height: auto;
+    width: $background-width-desktop;
+  }
+  .main-background {
+    height: 2780px;
+  }
+  .white-background {
+    height: 974px;
+    margin-top: 872px;
+    width: $background-width-desktop;
+  }
+}
+
 @media only screen and (max-width: 414px) {
   .background-container {
     height: $background-height-mobile + 400px;
@@ -58,7 +81,7 @@
     width: $background-width-mobile;
   }
   .white-background {
-    height: 1536px;
+    height: 1636px;
     margin-top: 890px;
     width: $background-width-mobile;
   }

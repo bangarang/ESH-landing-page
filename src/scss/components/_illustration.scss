@@ -1,11 +1,10 @@
 .illustration-container {
-  margin: 250px 0 0 240px;
+  margin: 250px $content-right-margin 0 $content-left-margin;
   position: absolute;
   z-index: 12;
 }
 
 .illustration-one {
-  height: 2194px;
   mix-blend-mode: multiply;
   object-fit: contain;
   opacity: 0.8;
@@ -22,28 +21,43 @@
   z-index: 13;
 }
 
+@media only screen and (max-width: 1024px) {
+  .illustration-container {
+    margin: 250px 5% 0 5%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .illustration-one {
+    width: 935px * .73;
+  }
+  .illustration-two {
+    left: 176px;
+    width: 323px * .63;
+    top: 1039.1px;
+  }
+}
+
 @media only screen and (max-width: 414px) {
   .illustration-container {
     margin: 0;
     width: $background-width-mobile;
     z-index: 12;
   }
-
   .illustration-one {
-    display: none;
     object-fit: cover;
+    margin-top: 212px;
     position: absolute;
     width: $background-width-mobile;
     z-index: 13;
   }
   .illustration-two {
-    display: none;
-    left: 0;
-    margin-top: -200px;
+    left: 0px;
+    margin-top: 0px;
     object-fit: cover;
-    position: absolute;
     transform: rotate(-90deg);
-    width: $background-width-mobile;
+    top: 1539.1px;
+    width: 80%;
     z-index: 13;
   }
 }

@@ -1,17 +1,12 @@
-.left-column {
-  width: 410px;
-}
-
 .left-content-one {
   margin-top: 800.3px;
 }
 
 .left-content-two {
-  margin-top: 720.7px;
+  margin-top: 236px;
 }
 
 .left-info-one {
-  height: 392px;
   width: 400.7px;
 }
 
@@ -63,17 +58,53 @@
   text-align: center;
 }
 
-@media only screen and (max-width: 414px) {
-  .left-column {
-    order: 1;
-    position: absolute;
-    width: $content-width-mobile;
+@media only screen and (max-width: 768px) {
+  .left-content-one {
+    margin-top: 560px;
+  }
+  .left-content-two {
+    margin-top: 30px;
   }
   .left-info-one {
-    font-size: 14px;
-    font-weight: 300;
     height: 296px;
-    line-height: 1.71;
+    width: 40.4%;
+  }
+  .left-info-two {
+    height: 90px;
+    margin-top: 24px;
+    width: 40.4%;
+  }
+  .discover-button {
+    margin-top: 33.8px;
+    width: 26.4%;
+  }
+  .left-info-three {
+    height: 152px;
+    width: 41%;
+  }
+  .left-info-four {
+    height: 128px;
+    margin: 31px 0;
+    width: 47%;
+  }
+  .link-text {
+    font-size: 14px;
+    height: 15px;
+    width: 32.8%;
+  }
+}
+
+
+@media only screen and (max-width: 414px) {
+  .left-content-one {
+    margin-top: 800px;
+  }
+  .left-content-two {
+    margin-top: 66vw;
+  }
+  .left-info-one {
+    height: 296px;
+    margin-top: 0;
     width: $content-width-mobile;
   }
   .left-info-two {
@@ -82,11 +113,10 @@
   }
   .discover-button {
     margin-top: 33.8px;
-    width: 280px;
+    width: $content-width-mobile;
   }
   .left-info-three {
     height: 180px;
-    margin-top: 1060px;
     width: 260px;
   }
   .left-info-four {

@@ -1,16 +1,12 @@
-.right-column {
-  width: 457px;
-}
-
 .right-content-one {
-  margin-top: 1359.4px;
-  margin-left: 160px;
+  margin-top: -20px;
+  margin-left: 560px;
   width: 400px;
 }
 
 .right-content-two {
-  margin-left: 80px;
-  margin-top: 776px;
+  margin-left: 486px;
+  margin-top: 74px;
 }
 
 .right-info-one {
@@ -83,16 +79,55 @@
   width: 457px;
 }
 
-@media only screen and (max-width: 414px) {
-  .right-column {
-    order: 2;
-    position: absolute;
-    left: 0;
-    width: $content-width-mobile;
+@media only screen and (max-width: 768px) {
+  .right-content-one {
+    margin-left: 392px;
+    width: 320px;
   }
+  .right-info-one {
+    height: 18px;
+    width: 200px;
+  }
+  .orange-text {
+    height: 18px;
+    width: 240px;
+  }
+  .orange-underline {
+    margin-top: 16px;
+    width: 286px;
+  }
+  .right-info-two {
+    margin-top: 14px;
+    width: 316px;
+  }
+  .right-info-three {
+    margin-top: 0;
+    width: 316px;
+  }
+  .right-content-two {
+    margin-left: 352px;
+    width: 292px;
+  }
+  .italic-info {
+    font-size: 18px;
+    height: 140px;
+    width: 314px;
+  }
+  .black-line {
+    width: 320px;
+  }
+  .extra-small-info {
+    font-size: 12px;
+    height: 36px;
+    margin-top: 10px;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 414px) {
   .right-content-one {
     margin-left: 0;
-    margin-top: 1759.4px;
+    margin-top: 449.4px;
     width: $content-width-mobile;
   }
   .right-info-one {
@@ -112,6 +147,7 @@
     margin-top: 0;
   }
   .orange-underline {
+    margin-top: 0;
     width: $content-width-mobile;
   }
   .right-info-two {
@@ -125,7 +161,7 @@
     width: $content-width-mobile;
   }
   .right-content-two {
-    margin-top: 660px;
+    margin-top: 62px;
     margin-left: 0;
   }
 }

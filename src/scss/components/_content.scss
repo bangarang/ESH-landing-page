@@ -34,28 +34,35 @@
 }
 
 .column-container {
-  display: flex;
-  justify-content: space-between;
+  display: column;
 }
 
 @media only screen and (max-width: 1024px) {
-  .header {
-    // multiply mobile by 1.33
-    // in between desktop and mobile
-    font-size: 40px;
-    // mobile
-    // font-size: 30px;
-    // height: 102px;
-    height: 136px;
-    line-height: 1.08;
-    margin-top: 18.2px;
-    width: 80%;
+  .content-container {
+    margin: 20px 5% 0 5%;
   }
 }
+
+@media only screen and (max-width: 768px) {
+  .header {
+    font-size: 40px;
+    height: 101px;
+    line-height: 1.06;
+    width: 90%;
+  }
+  .sub-header {
+    font-size: 22px;
+    height: 40px;
+    line-height: 1.16;
+    margin-top: 6.8px;
+    width: 90%;
+  }
+}
+
 @media only screen and (max-width: 414px) {
   .content-container {
-    margin: 20px auto 0 12%;
-    width: $content-width-mobile;
+    margin: 20px 12% 0 12%;
+    width: 76%;
   }
   .esh-logo {
     height: 40.8px;

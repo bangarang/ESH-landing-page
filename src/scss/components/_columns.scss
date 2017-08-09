@@ -24,10 +24,31 @@
   color: $teal;
 }
 
+@media only screen and (max-width: 1024px) {
+  .small-info {
+    font-size: 18px;
+    line-height: 1.63;
+  }
+  .large-info {
+    font-size: 31px;
+    letter-spacing: -0.4px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .small-info {
+    font-size: 16px;
+    line-height: 1.67;
+  }
+  .large-info {
+    font-size: 26px;
+    letter-spacing: -0.4px;
+  }
+}
+
 @media only screen and (max-width: 414px) {
   .small-info {
     font-size: 14px;
-    font-weight: 300;
     line-height: 1.71;
   }
 
