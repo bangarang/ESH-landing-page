@@ -1,28 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+
 .background-container {
   background-color: $primary-orange;
-  height: $background-height-desktop;
+  background-image: linear-gradient(323deg, #fdb913, #fdb913 40.4%, #f09221);
   width: $background-width-desktop;
+  max-width: 100%;
+  overflow: hidden;
 }
 
 .main-background {
-  background-image: linear-gradient(323deg, $primary-orange, $primary-orange 40.4%, $dark-orange);
-  height: 3767px;
   position: relative;
   z-index: 1;
 }
 
 .white-background {
   background-color: $white;
-  height: 1324px;
+  height: 1219px; 
   margin-top: 1118px;
   position: absolute;
   width: $background-width-desktop;
   z-index: 8;
+  max-width: 100%; 
 
-  -webkit-transform: skewY(30deg);
-  -moz-transform: skewY(30deg);
-  -ms-transform: skewY(30deg);
-  -o-transform: skewY(30deg);
   transform: skewY(30deg);
 }
 
@@ -58,11 +59,9 @@
 }
 @media only screen and (max-width: 768px) {
   .background-container {
-    height: auto;
     width: $background-width-desktop;
   }
   .main-background {
-    height: 2780px;
   }
   .white-background {
     height: 974px;
@@ -77,12 +76,11 @@
     width: $background-width-mobile;
   }
   .main-background {
-    height: $background-height-mobile;
     width: $background-width-mobile;
   }
   .white-background {
-    height: 1636px;
-    margin-top: 890px;
+    height: 1465px;
+    margin-top: 600px;
     width: $background-width-mobile;
   }
   .background-image-container {

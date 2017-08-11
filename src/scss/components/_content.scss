@@ -1,7 +1,10 @@
 .content-container {
-  margin: 20px $content-left-margin 0 $content-right-margin;
-  position: absolute;
+  position: relative;
   z-index: 10;
+  margin: auto;
+  width: 953px;
+  max-width: 100%;
+  padding: 0 30px;
 }
 
 .esh-logo {
@@ -11,19 +14,18 @@
 }
 
 .header {
-  // font-family: $museo-slab;
+  margin: 68.3px auto 0;
   font-size: 50px;
   font-weight: bold;
   height: 100px;
   line-height: 1;
   letter-spacing: -0.6px;
-  margin-top: 68.3px;
   opacity: 0.9;
   text-align: left;
-  width: 823.8px;
 }
 
 .sub-header {
+  margin: auto;
   font-family: $lato;
   font-size: 26px;
   height: 32px;
@@ -34,12 +36,15 @@
 }
 
 .column-container {
-  display: column;
+  flex-direction: column;
+  max-width: 100%;
+  width: 953px;
+  margin: auto;
 }
 
 @media only screen and (max-width: 1024px) {
   .content-container {
-    margin: 20px 5% 0 5%;
+    margin: 20px 0 0;
   }
 }
 
@@ -61,7 +66,7 @@
 
 @media only screen and (max-width: 414px) {
   .content-container {
-    margin: 20px 12% 0 12%;
+    margin: 20px auto 0;
     width: 76%;
   }
   .esh-logo {

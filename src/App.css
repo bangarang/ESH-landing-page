@@ -1,30 +1,30 @@
-@import url("https://fonts.googleapis.com/css?family=Lato");
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400");
 body, p {
   margin: 0;
   padding: 0; }
 
+* {
+  box-sizing: border-box; }
+
 .background-container {
   background-color: #fdb913;
-  height: 4150px;
-  width: 100%; }
+  background-image: linear-gradient(323deg, #fdb913, #fdb913 40.4%, #f09221);
+  width: 100%;
+  max-width: 100%;
+  overflow: hidden; }
 
 .main-background {
-  background-image: linear-gradient(323deg, #fdb913, #fdb913 40.4%, #f09221);
-  height: 3767px;
   position: relative;
   z-index: 1; }
 
 .white-background {
   background-color: #ffffff;
-  height: 1324px;
+  height: 1219px;
   margin-top: 1118px;
   position: absolute;
   width: 100%;
   z-index: 8;
-  -webkit-transform: skewY(30deg);
-  -moz-transform: skewY(30deg);
-  -ms-transform: skewY(30deg);
-  -o-transform: skewY(30deg);
+  max-width: 100%;
   transform: skewY(30deg); }
 
 .background-image-container {
@@ -54,10 +54,7 @@ body, p {
 
 @media only screen and (max-width: 768px) {
   .background-container {
-    height: auto;
     width: 100%; }
-  .main-background {
-    height: 2780px; }
   .white-background {
     height: 974px;
     margin-top: 872px;
@@ -68,11 +65,10 @@ body, p {
     height: 3437px;
     width: 100%; }
   .main-background {
-    height: 3037px;
     width: 100%; }
   .white-background {
-    height: 1636px;
-    margin-top: 890px;
+    height: 1465px;
+    margin-top: 600px;
     width: 100%; }
   .background-image-container {
     bottom: -200px; }
@@ -84,9 +80,12 @@ body, p {
     width: 100%; } }
 
 .content-container {
-  margin: 20px 16.73% 0 16.73%;
-  position: absolute;
-  z-index: 10; }
+  position: relative;
+  z-index: 10;
+  margin: auto;
+  width: 953px;
+  max-width: 100%;
+  padding: 0 30px; }
 
 .esh-logo {
   height: 67.7px;
@@ -94,17 +93,17 @@ body, p {
   width: 299.4px; }
 
 .header {
+  margin: 68.3px auto 0;
   font-size: 50px;
   font-weight: bold;
   height: 100px;
   line-height: 1;
   letter-spacing: -0.6px;
-  margin-top: 68.3px;
   opacity: 0.9;
-  text-align: left;
-  width: 823.8px; }
+  text-align: left; }
 
 .sub-header {
+  margin: auto;
   font-family: "Lato", sans-serif;
   font-size: 26px;
   height: 32px;
@@ -114,11 +113,14 @@ body, p {
   text-align: left; }
 
 .column-container {
-  display: column; }
+  flex-direction: column;
+  max-width: 100%;
+  width: 953px;
+  margin: auto; }
 
 @media only screen and (max-width: 1024px) {
   .content-container {
-    margin: 20px 5% 0 5%; } }
+    margin: 20px 0 0; } }
 
 @media only screen and (max-width: 768px) {
   .header {
@@ -135,7 +137,7 @@ body, p {
 
 @media only screen and (max-width: 414px) {
   .content-container {
-    margin: 20px 12% 0 12%;
+    margin: 20px auto 0;
     width: 76%; }
   .esh-logo {
     height: 40.8px;
@@ -159,30 +161,98 @@ body, p {
     z-index: 12; } }
 
 .illustration-container {
-  margin: 250px 16.73% 0 16.73%;
+  margin: 370px auto 0;
   position: absolute;
-  z-index: 12; }
+  top: 0;
+  z-index: 12;
+  pointer-events: none;
+  width: 100%; }
 
 .illustration-one {
-  mix-blend-mode: multiply;
-  object-fit: contain;
+  max-width: 100%;
   opacity: 0.8;
-  width: 935px; }
+  width: 935px;
+  margin: auto;
+  display: block; }
 
 .illustration-two {
   height: 475px;
-  left: 204px;
+  left: 50%;
+  transform: translateX(-81.5%);
   object-fit: contain;
   position: absolute;
-  top: 1539.1px;
+  top: 1280px;
   width: 323px;
   z-index: 13; }
 
+.st0 {
+  opacity: 0.8; }
+
+.st1 {
+  fill: none;
+  stroke: #000000;
+  stroke-width: 2; }
+
+.st2 {
+  opacity: 0.8;
+  fill: none;
+  stroke: #231F20;
+  stroke-width: 2;
+  enable-background: new; }
+
+.st3 {
+  opacity: 0.6; }
+
+.st4 {
+  fill: none;
+  stroke: #000000;
+  stroke-width: 1.5;
+  stroke-linecap: round;
+  stroke-linejoin: round; }
+
+.st5 {
+  fill: none;
+  stroke: #000000;
+  stroke-width: 1.5;
+  stroke-linecap: round; }
+
+.st6 {
+  fill: none;
+  stroke: #000000;
+  stroke-width: 1.5;
+  stroke-linejoin: round; }
+
+.st7 {
+  fill: none;
+  stroke: #000000;
+  stroke-width: 1.5; }
+
+.st8 {
+  fill: none;
+  stroke: #231F20;
+  stroke-width: 2; }
+
+.st9 {
+  fill: none;
+  stroke: #4F4C4D;
+  stroke-width: 2; }
+
+.st9.white-fill {
+  fill: white; }
+
 @media only screen and (max-width: 1024px) {
   .illustration-container {
-    margin: 250px 5% 0 5%; } }
+    margin-top: 180px; }
+  .illustration-one {
+    width: 768px; }
+  .illustration-two {
+    top: 1420px; }
+  svg .long-line {
+    display: none; } }
 
 @media only screen and (max-width: 768px) {
+  .illustration-container {
+    margin: 30px 0 0; }
   .illustration-one {
     width: 682.55px; }
   .illustration-two {
@@ -197,17 +267,17 @@ body, p {
     z-index: 12; }
   .illustration-one {
     object-fit: cover;
-    margin-top: 212px;
+    margin-top: -350px;
     position: absolute;
     width: 100%;
     z-index: 13; }
   .illustration-two {
     left: 0px;
     margin-top: 0px;
-    object-fit: cover;
     transform: rotate(-90deg);
-    top: 1539.1px;
-    width: 80%;
+    top: 1224px;
+    width: 100%;
+    height: 96vw;
     z-index: 13; } }
 
 .small-info {
@@ -265,15 +335,12 @@ body, p {
   width: 400.7px; }
 
 .left-info-two {
-  height: 120px;
   width: 410px; }
 
 .left-info-three {
-  height: 200px;
   width: 420px; }
 
 .left-info-four {
-  height: 160px;
   margin: 33px 0 38px 0; }
 
 .discover-button {
@@ -312,20 +379,15 @@ body, p {
   .left-content-two {
     margin-top: 30px; }
   .left-info-one {
-    height: 296px;
     width: 40.4%; }
   .left-info-two {
-    height: 90px;
     margin-top: 24px;
     width: 40.4%; }
   .discover-button {
-    margin-top: 33.8px;
-    width: 26.4%; }
+    margin-top: 33.8px; }
   .left-info-three {
-    height: 152px;
     width: 41%; }
   .left-info-four {
-    height: 128px;
     margin: 31px 0;
     width: 47%; }
   .link-text {
@@ -335,11 +397,10 @@ body, p {
 
 @media only screen and (max-width: 414px) {
   .left-content-one {
-    margin-top: 800px; }
+    margin-top: 500px; }
   .left-content-two {
     margin-top: 66vw; }
   .left-info-one {
-    height: 296px;
     margin-top: 0;
     width: 100%; }
   .left-info-two {
@@ -363,25 +424,21 @@ body, p {
 
 .right-content-one {
   margin-top: -20px;
-  margin-left: 560px;
-  width: 400px; }
+  margin-left: 60%;
+  width: 40%; }
 
 .right-content-two {
-  margin-left: 486px;
+  margin-left: 50%;
   margin-top: 74px; }
 
 .right-info-one {
   height: 37px; }
 
 .right-info-two {
-  height: 212px;
-  margin-top: 27.6px;
-  width: 384px; }
+  margin-top: 27.6px; }
 
 .right-info-three {
-  height: 160px;
-  margin-top: 35.5px;
-  width: 348px; }
+  margin-top: 35.5px; }
 
 .orange-text {
   color: #f09221;
@@ -392,15 +449,13 @@ body, p {
   line-height: 1.54;
   letter-spacing: -0.2px;
   margin-top: 15px;
-  text-align: left;
-  width: 477.4px; }
+  text-align: left; }
 
 .orange-underline {
   border-image-source: linear-gradient(to right, #fdb913, #f09221);
   border-image-slice: 1;
   border-style: solid;
-  border-width: 1px;
-  width: 358px; }
+  border-width: 1px; }
 
 .italic-info {
   color: #000000;
@@ -432,25 +487,20 @@ body, p {
 
 @media only screen and (max-width: 768px) {
   .right-content-one {
-    margin-left: 392px;
+    margin-left: 50%;
     width: 320px; }
   .right-info-one {
-    height: 18px;
-    width: 200px; }
+    height: 18px; }
   .orange-text {
-    height: 18px;
-    width: 240px; }
+    height: 18px; }
   .orange-underline {
-    margin-top: 16px;
-    width: 286px; }
+    margin-top: 16px; }
   .right-info-two {
-    margin-top: 14px;
-    width: 316px; }
+    margin-top: 14px; }
   .right-info-three {
-    margin-top: 0;
-    width: 316px; }
+    margin-top: 0; }
   .right-content-two {
-    margin-left: 352px;
+    margin-left: 50%;
     width: 292px; }
   .italic-info {
     font-size: 18px;
@@ -467,7 +517,7 @@ body, p {
 @media only screen and (max-width: 414px) {
   .right-content-one {
     margin-left: 0;
-    margin-top: 449.4px;
+    margin-top: 340px;
     width: 100%; }
   .right-info-one {
     font-size: 14px;
@@ -565,13 +615,13 @@ body, p {
 
 .ed-surge {
   height: 116.6px;
-  padding-left: 32.3%;
+  margin-left: 32.3%;
   width: 14.4%; }
 
 .tech-learning {
   height: 46.9px;
   opacity: 0.8;
-  padding-left: 10.3%;
+  margin-left: 10.3%;
   width: 9.8%; }
 
 @media only screen and (max-width: 414px) {

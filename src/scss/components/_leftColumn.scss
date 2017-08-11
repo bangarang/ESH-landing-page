@@ -11,17 +11,14 @@
 }
 
 .left-info-two {
-  height: 120px;
   width: 410px;
 }
 
 .left-info-three {
-  height: 200px;
   width: 420px;
 }
 
 .left-info-four {
-  height: 160px;
   margin: 33px 0 38px 0;
 }
 
@@ -66,24 +63,19 @@
     margin-top: 30px;
   }
   .left-info-one {
-    height: 296px;
     width: 40.4%;
   }
   .left-info-two {
-    height: 90px;
     margin-top: 24px;
     width: 40.4%;
   }
   .discover-button {
     margin-top: 33.8px;
-    width: 26.4%;
   }
   .left-info-three {
-    height: 152px;
     width: 41%;
   }
   .left-info-four {
-    height: 128px;
     margin: 31px 0;
     width: 47%;
   }
@@ -97,13 +89,12 @@
 
 @media only screen and (max-width: 414px) {
   .left-content-one {
-    margin-top: 800px;
+    margin-top: 500px;
   }
   .left-content-two {
     margin-top: 66vw;
   }
   .left-info-one {
-    height: 296px;
     margin-top: 0;
     width: $content-width-mobile;
   }
