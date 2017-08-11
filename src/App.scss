@@ -4,6 +4,8 @@ body, p {
   padding: 0;
 }
 
+$mobile: 600px;
+
 @import url('https://fonts.googleapis.com/css?family=Lato:300,400');
 @import './scss/abstracts/variables';
 @import './scss/components/main';

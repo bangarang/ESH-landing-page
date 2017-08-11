@@ -87,7 +87,7 @@
 }
 
 
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: $mobile) {
   .left-content-one {
     margin-top: 500px;
   }
@@ -99,7 +99,6 @@
     width: $content-width-mobile;
   }
   .left-info-two {
-    height: 90px;
     width: $content-width-mobile;
   }
   .discover-button {
@@ -107,18 +106,15 @@
     width: $content-width-mobile;
   }
   .left-info-three {
-    height: 180px;
     width: 260px;
   }
   .left-info-four {
-    height: 96px;
     margin: 31px 0;
     width: $content-width-mobile;
   }
   .link-text {
     font-size: 12px;
     font-weight: bold;
-    height: 15px;
     width: $content-width-mobile;
   }
 }

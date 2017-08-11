@@ -60,9 +60,8 @@ body, p {
     margin-top: 872px;
     width: 100%; } }
 
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 600px) {
   .background-container {
-    height: 3437px;
     width: 100%; }
   .main-background {
     width: 100%; }
@@ -96,7 +95,6 @@ body, p {
   margin: 68.3px auto 0;
   font-size: 50px;
   font-weight: bold;
-  height: 100px;
   line-height: 1;
   letter-spacing: -0.6px;
   opacity: 0.9;
@@ -106,7 +104,6 @@ body, p {
   margin: auto;
   font-family: "Lato", sans-serif;
   font-size: 26px;
-  height: 32px;
   line-height: 1.23;
   margin-top: 20.5px;
   opacity: 0.9;
@@ -125,17 +122,15 @@ body, p {
 @media only screen and (max-width: 768px) {
   .header {
     font-size: 40px;
-    height: 101px;
     line-height: 1.06;
     width: 90%; }
   .sub-header {
     font-size: 22px;
-    height: 40px;
     line-height: 1.16;
     margin-top: 6.8px;
     width: 90%; } }
 
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 600px) {
   .content-container {
     margin: 20px auto 0;
     width: 76%; }
@@ -145,13 +140,11 @@ body, p {
     width: 180.7px; }
   .header {
     font-size: 30px;
-    height: 102px;
     line-height: 1.13;
     margin-top: 18.2px;
     width: 100%; }
   .sub-header {
     font-size: 18px;
-    height: 40px;
     line-height: 1.11;
     margin-top: 6.8px;
     width: 100%; }
@@ -260,7 +253,7 @@ body, p {
     width: 203.49px;
     top: 1039.1px; } }
 
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 600px) {
   .illustration-container {
     margin: 0;
     width: 100%;
@@ -317,7 +310,7 @@ body, p {
     font-size: 26px;
     letter-spacing: -0.4px; } }
 
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 600px) {
   .small-info {
     font-size: 14px;
     line-height: 1.71; }
@@ -395,7 +388,7 @@ body, p {
     height: 15px;
     width: 32.8%; } }
 
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 600px) {
   .left-content-one {
     margin-top: 500px; }
   .left-content-two {
@@ -404,22 +397,18 @@ body, p {
     margin-top: 0;
     width: 100%; }
   .left-info-two {
-    height: 90px;
     width: 100%; }
   .discover-button {
     margin-top: 33.8px;
     width: 100%; }
   .left-info-three {
-    height: 180px;
     width: 260px; }
   .left-info-four {
-    height: 96px;
     margin: 31px 0;
     width: 100%; }
   .link-text {
     font-size: 12px;
     font-weight: bold;
-    height: 15px;
     width: 100%; } }
 
 .right-content-one {
@@ -514,7 +503,7 @@ body, p {
     margin-top: 10px;
     width: 100%; } }
 
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 600px) {
   .right-content-one {
     margin-left: 0;
     margin-top: 340px;
@@ -548,7 +537,7 @@ body, p {
     margin-top: 62px;
     margin-left: 0; } }
 
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 600px) {
   .italic-info {
     font-size: 16px;
     height: 182px;
@@ -624,7 +613,7 @@ body, p {
   margin-left: 10.3%;
   width: 9.8%; }
 
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 600px) {
   .footer-container {
     margin-top: 300px;
     width: 100%; }

@@ -15,7 +15,11 @@ class Illustration extends Component {
       animTimingFunction: Vivus.EASE,
       start: 'manual'
     });
-    illustration_one.play();
+    document.addEventListener("DOMContentLoaded", function(event) {
+      console.log("DOM fully loaded and parsed");
+      illustration_one.play();
+    });
+    
     var illustration_two = new Vivus('illustration-two', {
       duration: 100,
       type: 'delayed'

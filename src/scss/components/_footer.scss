@@ -57,7 +57,7 @@
   width: 9.8%;
 }
 
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: $mobile) {
     .footer-container {
       margin-top: 300px;
       width: $background-width-mobile;
