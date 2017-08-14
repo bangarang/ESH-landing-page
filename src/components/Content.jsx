@@ -4,10 +4,41 @@ import Carousel from './Carousel';
 import AOS from 'aos';
 
 class Content extends Component  {
-  componentDidMount = () => {
-    AOS.init();
+  constructor(props){
+    super(props);
+    this.state = {
+      current: 0
+    }
   }
+  componentDidMount = () => {
+    var self = this;
+    AOS.init();
+    self.textFlipper();
+  }
+  textFlipper = () => {
+    var self = this;
+    setInterval( 
+      self.flipText, 
+      2000
+    )
+  }
+
+  flipText = () => {
+     var self = this;
+    var { current } = self.state; 
+    if (current == 3) {
+      self.setState({current: 1 })
+    } else {
+      self.setState({current: current + 1 })
+    }
+  }
+  
   render () {
+    var { current } = this.state;
+    var fliptextclass;
+    if (current > 0) {
+      fliptextclass = "text_" + current;
+    }
     return (
       <div className="content-container">
         <img
@@ -54,7 +85,11 @@ class Content extends Component  {
               We offer
             </p>
             <p className="orange-text" data-aos="fade-left" data-aos-delay="500">
-              technical assistance
+              <span className={"textflipper " + fliptextclass }>
+                <span>technical assistance</span>
+                <span>price comparison tools</span>
+                <span>procurement resources</span>
+             </span>
             </p>
             <div className="orange-underline"  data-aos="fade-left" data-aos-delay="500"/>
             <p className="small-info right-info-two" data-aos="fade-left" data-aos-delay="500">
