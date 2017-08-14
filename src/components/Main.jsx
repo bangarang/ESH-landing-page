@@ -1,7 +1,8 @@
 import React from 'react';
 import Footer from './Footer';
 import Content from './Content';
-import BackgroundImage from '../assets/bitmap@3x.png';
+import BackgroundImage from '../assets/yellowBG_bottom.jpg';
+import BackgroundImageMobile from '../assets/yellowBG_mobile.jpg';
 import Illustration from './Illustration';
 
 const Main = () => {

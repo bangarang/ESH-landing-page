@@ -163,7 +163,7 @@ body, p {
 
 .illustration-one {
   max-width: 100%;
-  opacity: 0.8;
+  opacity: 1.8;
   width: 935px;
   margin: auto;
   display: block; }
@@ -192,6 +192,9 @@ body, p {
   stroke: #231F20;
   stroke-width: 2;
   enable-background: new; }
+
+path.circle {
+  stroke: #231F20; }
 
 .st3 {
   opacity: 0.6; }
@@ -233,6 +236,58 @@ body, p {
 .st9.white-fill {
   fill: white; }
 
+path.circledraw {
+  transform-origin: center;
+  transform: scale(0);
+  animation: scale-in 0.5s ease forwards;
+  animation-delay: 1s; }
+  path.circledraw:nth-child(2n+1) {
+    animation-delay: 1.2s; }
+  path.circledraw:nth-child(3n+1) {
+    animation-delay: 1.4s; }
+  path.circledraw:nth-child(4n+1) {
+    animation-delay: 1.3s; }
+  path.circledraw:nth-child(5n+1) {
+    animation-delay: 1.6s; }
+  path.circledraw:nth-child(6n+1) {
+    animation-delay: 1.4s; }
+
+g.orb .circle {
+  transform-origin: center;
+  transform: scale(0);
+  animation: scale-in 0.5s ease forwards;
+  animation-delay: 1s; }
+
+g.orb .icon {
+  transform-origin: center;
+  opacity: 0;
+  animation: fade-up-in 1s ease forwards;
+  animation-delay: 1s; }
+
+g.orb.writing .circle, g.orb.writing .icon {
+  animation-delay: 1.3s; }
+
+g.orb.grad .circle, g.orb.grad .icon {
+  animation-delay: 1.4s; }
+
+g.orb.sci .circle, g.orb.sci .icon {
+  animation-delay: 1.5s; }
+
+g.orb.govt .circle, g.orb.govt .icon {
+  animation-delay: 1.6s; }
+
+g.orb.math .circle, g.orb.math .icon {
+  animation-delay: 1.7s; }
+
+g.orb.book .circle, g.orb.book .icon {
+  animation-delay: 1.8s; }
+
+g.orb.girl .circle, g.orb.girl .icon {
+  animation-delay: 1.9s; }
+
+g.orb.tele .circle, g.orb.tele .icon {
+  animation-delay: 1.4s; }
+
 @media only screen and (max-width: 1024px) {
   .illustration-container {
     margin-top: 180px; }
@@ -272,6 +327,20 @@ body, p {
     width: 100%;
     height: 96vw;
     z-index: 13; } }
+
+@keyframes scale-in {
+  0% {
+    transform: scale(0); }
+  100% {
+    transform: scale(1); } }
+
+@keyframes fade-up-in {
+  0% {
+    opacity: 0;
+    transform: translateY(10px); }
+  100% {
+    opacity: 1;
+    transform: translateY(0px); } }
 
 .small-info {
   font-family: "Lato", sans-serif;
