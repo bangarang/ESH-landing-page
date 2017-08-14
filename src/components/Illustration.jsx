@@ -3,6 +3,8 @@ import illustrationOne from '../assets/diagram-vector@3x.png';
 import illustrationTwo from '../assets/diagram-vector-2@3x.png';
 import Vivus from 'vivus';
 
+// import scrollMajig from './scrollMajig.js';
+
 class Illustration extends Component {
   constructor(props) {
     super(props);
@@ -21,7 +23,7 @@ class Illustration extends Component {
     });
     
     var illustration_two = new Vivus('illustration-two', {
-      duration: 200,
+      duration: 150,
       type: 'delayed'
     });
   }
@@ -475,7 +477,7 @@ class Illustration extends Component {
           alt="Illustration Two"
         />
         */ }
-        <svg id="illustration-two" className="illustration-two" x="0px" y="0px" width="324px" height="476px" viewBox="0 0 324 476" >
+        <svg data-aos="illustration-two" data-aos-anchor=".discover-button" data-aos-once id="illustration-two" className="illustration-two" x="0px" y="0px" width="324px" height="476px" viewBox="0 0 324 476" >
           <path className="st9" d="M150.2,392.1l28.4,16.5 M234.5,341.3l27.3,15.8 M193,267.1l24.2,14.2 M59.9,140.8l75.9,44 M101.8,115l78,45.2
             M190.9,367.4l22.5,13.1 M61.4,293.4l20.7,11 M189.1,114.3l32.1,18.6 M230.5,88.2l32.5,18.9"/>
           <path className="st9" d="M226.9,431.2l0-29.8"/>

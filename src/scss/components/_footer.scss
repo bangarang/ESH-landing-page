@@ -1,14 +1,13 @@
 .footer-container {
   background-color: $white;
-  height: 383px;
   width: $background-width-desktop;
+  position: relative;
+  z-index: 1;
 }
 
 .footer-text {
-  height: 40px;
-  width: 381px;
+  width: 380px;
   margin: 0 auto 37px auto;
-  // font-family: MuseoSlab;
   font-size: 36px;
   font-weight: 300;
   line-height: 1.11;
@@ -59,7 +58,6 @@
 
 @media only screen and (max-width: $mobile) {
     .footer-container {
-      margin-top: 300px;
       width: $background-width-mobile;
     }
     .footer-text {

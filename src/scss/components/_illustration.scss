@@ -3,8 +3,8 @@
   position: absolute;
   top: 0;
   z-index: 12;
-  pointer-events: none;
   width: 100%;
+  pointer-events: none;
 }
 
 .illustration-one {
@@ -47,7 +47,8 @@ path.circle {
 .st9{fill:none;stroke:#4F4C4D;stroke-width:2;}
 .st9.white-fill {fill: white;}
 
-path.circledraw {
+
+.illustration-one path.circledraw {
   transform-origin: center;
   transform: scale(0);
   animation: scale-in 0.5s ease forwards; 
@@ -66,6 +67,34 @@ path.circledraw {
   }
   &:nth-child(6n+1) {
     animation-delay: 1.4s;
+  }
+}
+
+[data-aos="illustration-two"] {
+  path.circledraw {
+    transform-origin: center;
+    transform: scale(0);
+  }
+  &.aos-animate {
+    path.circledraw {
+      animation: scale-in 0.5s ease forwards; 
+      animation-delay: 1s;
+      &:nth-child(2n+1) {
+        animation-delay: 1.2s;
+      }
+      &:nth-child(3n+1) {
+        animation-delay: 1.4s;
+      }
+      &:nth-child(4n+1) {
+        animation-delay: 1.3s;
+      }
+      &:nth-child(5n+1) {
+        animation-delay: 1.6s;
+      }
+      &:nth-child(6n+1) {
+        animation-delay: 1.4s;
+      }
+    }
   }
 }
 
@@ -162,7 +191,7 @@ g.orb {
   }
   .illustration-one {
     object-fit: cover;
-    margin-top: -350px;
+    margin-top: -320px;
     position: absolute;
     width: $background-width-mobile;
     z-index: 13;
@@ -171,7 +200,7 @@ g.orb {
     left: 0px;
     margin-top: 0px;
     transform: rotate(-90deg);
-    top: 1224px;
+    top: 1300px;
     width: 100%;
     height: 96vw;
     z-index: 13;

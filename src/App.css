@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Lato:300,400");
+@import url(./scss/abstracts/aos.css);
 body, p {
   margin: 0;
   padding: 0; }
@@ -84,7 +85,7 @@ body, p {
   margin: auto;
   width: 953px;
   max-width: 100%;
-  padding: 0 30px; }
+  padding: 30px; }
 
 .esh-logo {
   height: 67.7px;
@@ -158,8 +159,8 @@ body, p {
   position: absolute;
   top: 0;
   z-index: 12;
-  pointer-events: none;
-  width: 100%; }
+  width: 100%;
+  pointer-events: none; }
 
 .illustration-one {
   max-width: 100%;
@@ -236,20 +237,38 @@ path.circle {
 .st9.white-fill {
   fill: white; }
 
-path.circledraw {
+.illustration-one path.circledraw {
   transform-origin: center;
   transform: scale(0);
   animation: scale-in 0.5s ease forwards;
   animation-delay: 1s; }
-  path.circledraw:nth-child(2n+1) {
+  .illustration-one path.circledraw:nth-child(2n+1) {
     animation-delay: 1.2s; }
-  path.circledraw:nth-child(3n+1) {
+  .illustration-one path.circledraw:nth-child(3n+1) {
     animation-delay: 1.4s; }
-  path.circledraw:nth-child(4n+1) {
+  .illustration-one path.circledraw:nth-child(4n+1) {
     animation-delay: 1.3s; }
-  path.circledraw:nth-child(5n+1) {
+  .illustration-one path.circledraw:nth-child(5n+1) {
     animation-delay: 1.6s; }
-  path.circledraw:nth-child(6n+1) {
+  .illustration-one path.circledraw:nth-child(6n+1) {
+    animation-delay: 1.4s; }
+
+[data-aos="illustration-two"] path.circledraw {
+  transform-origin: center;
+  transform: scale(0); }
+
+[data-aos="illustration-two"].aos-animate path.circledraw {
+  animation: scale-in 0.5s ease forwards;
+  animation-delay: 1s; }
+  [data-aos="illustration-two"].aos-animate path.circledraw:nth-child(2n+1) {
+    animation-delay: 1.2s; }
+  [data-aos="illustration-two"].aos-animate path.circledraw:nth-child(3n+1) {
+    animation-delay: 1.4s; }
+  [data-aos="illustration-two"].aos-animate path.circledraw:nth-child(4n+1) {
+    animation-delay: 1.3s; }
+  [data-aos="illustration-two"].aos-animate path.circledraw:nth-child(5n+1) {
+    animation-delay: 1.6s; }
+  [data-aos="illustration-two"].aos-animate path.circledraw:nth-child(6n+1) {
     animation-delay: 1.4s; }
 
 g.orb .circle {
@@ -315,7 +334,7 @@ g.orb.tele .circle, g.orb.tele .icon {
     z-index: 12; }
   .illustration-one {
     object-fit: cover;
-    margin-top: -350px;
+    margin-top: -320px;
     position: absolute;
     width: 100%;
     z-index: 13; }
@@ -323,7 +342,7 @@ g.orb.tele .circle, g.orb.tele .icon {
     left: 0px;
     margin-top: 0px;
     transform: rotate(-90deg);
-    top: 1224px;
+    top: 1300px;
     width: 100%;
     height: 96vw;
     z-index: 13; } }
@@ -351,6 +370,7 @@ g.orb.tele .circle, g.orb.tele .icon {
   text-align: left; }
 
 .large-info {
+  margin-top: 30px;
   font-size: 34px;
   font-weight: 300;
   line-height: 1.18;
@@ -408,20 +428,30 @@ g.orb.tele .circle, g.orb.tele .icon {
 .discover-button {
   border: solid 2px #fdb913;
   border-radius: 7px;
-  display: flex;
-  height: 55.5px;
-  justify-content: center;
+  display: block;
+  text-align: center;
   margin-top: 42px;
-  width: 224.7px; }
+  width: 224.7px;
+  padding: 0 20px;
+  color: #4a4a4a;
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  text-align: center;
+  line-height: 2;
+  transition: 0.25s ease;
+  cursor: pointer; }
+  .discover-button:hover {
+    background: #fdb913;
+    color: white; }
 
 .discover-text {
   color: #4a4a4a;
-  height: 24px;
   font-family: Lato;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: bold;
   letter-spacing: 0.5px;
-  margin-top: 16px;
   text-align: center;
   width: 175.5px; }
 
@@ -635,12 +665,12 @@ g.orb.tele .circle, g.orb.tele .icon {
 
 .footer-container {
   background-color: #ffffff;
-  height: 383px;
-  width: 100%; }
+  width: 100%;
+  position: relative;
+  z-index: 1; }
 
 .footer-text {
-  height: 40px;
-  width: 381px;
+  width: 380px;
   margin: 0 auto 37px auto;
   font-size: 36px;
   font-weight: 300;
@@ -684,7 +714,6 @@ g.orb.tele .circle, g.orb.tele .icon {
 
 @media only screen and (max-width: 600px) {
   .footer-container {
-    margin-top: 300px;
     width: 100%; }
   .footer-text {
     height: 48px;
