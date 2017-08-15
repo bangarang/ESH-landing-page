@@ -1,17 +1,17 @@
 import React from 'react';
-import nytLogoLarge from '../assets/nyt@3x.png';
+import nytLogoLarge from '../assets/NYT.jpg';
 // import nytLogoMedium from '../assets/nyt@2x.png';
 // import nytLogoSmall from '../assets/nyt.png';
-import eduWeekLogoLarge from '../assets/edu-week@3x.png';
+import eduWeekLogoLarge from '../assets/Education-Week.jpg';
 // import eduWeekLogoMedium from '../assets/edu-week@2x.png';
 // import eduWeekLogoSmall from '../assets/edu-week.png';
-import edSurgeLogoLarge from '../assets/ed-surge@3x.png';
+import edSurgeLogoLarge from '../assets/EdSurge.jpg';
 // import edSurgeLogoMedium from '../assets/ed-surge@2x.png';
 // import edSurgeLogoSmall from '../assets/ed-surge.png';
-import techLearnLogoLarge from '../assets/tech-learning@3x.png';
+import techLearnLogoLarge from '../assets/TandL.jpg';
 // import techLearnLogoMedium from '../assets/tech-learning@2x.png';
 // import techLearnLogoSmall from '../assets/tech-learning.png';
-import usaTodayLogoLarge from '../assets/usa-today@3x.png';
+import usaTodayLogoLarge from '../assets/USAToday.jpg';
 // import usaTodayLogoMedium from '../assets/usa-today@2x.png';
 // import usaTodayLogoSmall from '../assets/usa-today.png';
 

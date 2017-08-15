@@ -15,7 +15,6 @@ class Carousel extends Component {
     this.checkDevice = this.checkDevice.bind(this);
   }
   componentDidMount() {
-    // add event listener
     this.checkDevice();
     window.addEventListener("resize", this.checkDevice);
   }

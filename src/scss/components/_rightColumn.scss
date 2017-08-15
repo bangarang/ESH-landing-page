@@ -113,7 +113,6 @@
     height: 18px;
   }
   .orange-text {
-    height: 18px;
   }
   .orange-underline {
     margin-top: 16px;
@@ -183,5 +182,11 @@
   .right-content-two {
     margin-top: 62px;
     margin-left: 0;
+  }
+}
+
+@media only screen and (max-width: 414px) {
+  .right-content-one {
+    margin-top: 0;
   }
 }

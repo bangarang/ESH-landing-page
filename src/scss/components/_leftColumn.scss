@@ -23,14 +23,14 @@
 }
 
 .discover-button {
-  border: solid 2px $primary-orange;
+  background: $primary-orange;
   border-radius: 7px;
   display: block;
   text-align: center;
   margin-top: 42px;
   width: 224.7px;
   padding: 0 20px;
-  color: rgb(74, 74, 74);
+  color: white;
   font-family: Lato;
   font-size: 18px;
   font-weight: bold;
@@ -40,8 +40,7 @@
   transition: 0.25s ease;
   cursor: pointer; 
   &:hover {
-    background: $primary-orange;
-    color: white;
+    background: #f09221;
   }
 }
 
