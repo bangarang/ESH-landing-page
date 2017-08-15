@@ -94,3 +94,21 @@
     width: $background-width-mobile;
   }
 }
+
+.desktop {
+
+}
+
+.mobile {
+  display: none;
+}
+
+@media only screen and (max-width: $mobile) {
+  .desktop {
+    display: none;
+  }
+
+  .mobile {
+    display: block;
+  }
+}
