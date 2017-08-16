@@ -53,7 +53,7 @@ class Illustration extends Component {
     var { device } = this.state;
     return (
       <div className="illustration-container">
-        <svg id="illustration-one" className="illustration-one" x="0px" y="0px" width="936.8px" height="2093.9px" viewBox="0 0 936.8 2093.9" >
+        <svg id="illustration-one" className="illustration-one" x="0px" y="0px" width="936.8px" height="2115px" viewBox="0 0 936.8 2115" >
           <g id="Page-1_7_">
             <g id="ESH-LandingPage_Desktop">
               <g id="diagram-vector-CLEAN" transform="translate(323.000000, 349.000000)" className="st0">
@@ -341,6 +341,7 @@ class Illustration extends Component {
                   C113.2,180.1,116.4,177,116.4,173.2L116.4,173.2L116.4,173.2z"/>
                 <path data-ignore="true" className="st1 circledraw" id="Shape_119_" d="M284.2,75.5c0-2.1-1.7-3.7-3.7-3.7l0,0c-2.1,0-3.7,1.7-3.7,3.7l0,0c0,2.1,1.6,3.8,3.6,3.8
                   c2.1,0,3.8-1.6,3.8-3.6C284.2,75.6,284.2,75.5,284.2,75.5z"/>
+
               </g>
               <g className="orb writing" transform="translate(251.000000, 756.000000)">
                 <path data-ignore="true" id="Shape_120_" className="st2 circle circle" d="M-161.9-309.4c0-21.3-17.3-38.6-38.6-38.6s-38.6,17.3-38.6,38.6c0,21.3,17.3,38.6,38.6,38.6
@@ -486,6 +487,10 @@ class Illustration extends Component {
               </g>
             </g>
           </g>
+          <path id="Middle-left-circle" data-ignore="true" className="st1 circledraw opacitycircles" d="M349.3,622.6c0.1-2.1-1.6-3.8-3.6-3.8c-2.1-0.1-3.8,1.6-3.8,3.6c0,0.1,0,0.1,0,0.2
+            c0,2.1,1.7,3.7,3.7,3.7l0,0C347.6,626.4,349.3,624.7,349.3,622.6L349.3,622.6L349.3,622.6z"/>
+          <path id="Bottom-circle" data-ignore="true" className="st1 circledraw opacitycircles" d="M481.1,2099.9c0.2-3.3-2.5-6-5.6-6c-3.3-0.2-6,2.5-6,5.6c0,0.2,0,0.2,0,0.3
+            c0,3.3,2.7,5.8,5.8,5.8l0,0C478.4,2105.8,481.1,2103.2,481.1,2099.9L481.1,2099.9L481.1,2099.9z"/>
         </svg>
 
         <svg data-aos="illustration-two" data-aos-anchor=".discover-button" data-aos-once id="illustration-two-desktop" className="illustration-two desktop" x="0px" y="0px" width="324px" height="476px" viewBox="0 0 324 476" >

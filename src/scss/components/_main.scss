@@ -3,11 +3,15 @@
 }
 
 .background-container {
-  background-color: $primary-orange;
-  background-image: linear-gradient(323deg, #fdb913, #fdb913 40.4%, #f09221);
+  // background-color: $primary-orange;
+  background-image: url(/static/media/bottom-image.e5a145a3.png), linear-gradient(110deg, #fdb913, #fdb913 40.4%, #f09221);
   width: $background-width-desktop;
   max-width: 100%;
   overflow: hidden;
+  background-position: bottom;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
 }
 
 .main-background {
